@@ -5,6 +5,7 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    max-width:670px;
 }
 
 /*
@@ -25,3 +26,5 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+/* skuska skuska
