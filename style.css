@@ -58,19 +58,26 @@ body {
 
 .bota{
     position:relative;
-    right:70px;
+    right:90px;
     
 }
 .cena{
     color:white;
-    font-weight: bold;
+    font-weight: bold; /* tu som nenastavila 500 - takto sa mi to pacilo viac */
     font-size: 28px;
-    padding-right: 30px;
     position: relative;
     left:180px;
     bottom:70px;
 }
 
+.zaruka{
+    color:white;
+    font-weight: bold; /* tu som nenastavila 500 - takto sa mi to pacilo viac */
+    font-size: 12px;
+    position: relative;
+    left:140px;
+    bottom:65px;
+}
 
 .detaily{
     position: relative;
