@@ -6,7 +6,13 @@ html { box-sizing: border-box; }
 body {
     text-rendering: optimizeLegibility;
     max-width:670px;
-}
+    max-height:440px;
+    background-color: #f5f5f5;
+    padding-top:100px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    }
 
 /*
  BARVY
@@ -27,4 +33,57 @@ body {
 
 /* ----- zde zacni psat vlastni css ----- */
 
-/* skuska skuska
+.zbozi {
+    position: relative;
+    width: 335px;
+    height: 440px;
+    left: 400px;
+    top: 100px;
+    background: linear-gradient(#06d7c1, #50cc49);
+    border-radius: 30px 0 0 30px;
+    font-family: Rubik;
+    font-size: 14px;
+}
+
+.logo{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.slogan{
+    color:white;
+    padding-left:30px;
+    font-weight: bold;
+}
+
+.bota{
+    position:relative;
+    right:70px;
+    
+}
+.cena{
+    color:white;
+    font-weight: bold;
+    font-size: 28px;
+    padding-right: 30px;
+    position: relative;
+    left:180px;
+    bottom:70px;
+}
+
+
+.detaily{
+    position: relative;
+    background-color: white;
+    width: 335px;
+    height: 440px;
+    left: 735px;
+    bottom: 359px;
+    border-radius: 0 30px 30px 0;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-family: Rubik;
+    font-size: 14px;
+    z-index: -1;
+    
+}
